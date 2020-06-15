@@ -5,7 +5,7 @@ nav:
   path: /components
 ---
 
-## Foo组件
+## Foo组件-测试自动发布
 
 Demo:
 
