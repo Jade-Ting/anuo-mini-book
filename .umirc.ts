@@ -11,4 +11,16 @@ export default defineConfig({
   base: '/anuo-mini-book',
   publicPath: '/anuo-mini-book/',
   exportStatic: {}, // 将所有路由输出为 HTML 目录结构，以免刷新页面时 404
+
+  // 引入antd
+  extraBabelPlugins: [
+    [
+      'import',
+      {
+        libraryName: 'antd',
+        libraryDirectory: 'es',
+        style: 'css',
+      },
+    ],
+ ],
 });

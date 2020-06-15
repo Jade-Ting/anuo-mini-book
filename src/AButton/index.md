@@ -5,15 +5,15 @@ nav:
   path: /components
 ---
 
-## Foo组件-测试自动发布
+## AButton
 
 Demo:
 
 ```tsx
 import React from 'react';
-import { Foo } from 'dumi-library';
+import { AButton } from 'dumi-library';
 
-export default () => <Foo title="First Demo" />;
+export default () => <AButton title="First Demo" />;
 ```
 
 More skills for writing demo: https://d.umijs.org/guide/demo-principle
