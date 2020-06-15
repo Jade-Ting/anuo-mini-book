@@ -5,7 +5,7 @@ nav:
   path: /components
 ---
 
-## Foo
+## Foo组件
 
 Demo:
 
