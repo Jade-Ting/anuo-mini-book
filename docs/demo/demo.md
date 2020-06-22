@@ -6,7 +6,7 @@ nav:
 ---
 
 # 组件渲染
-> 封装 `antd` 中的 `Button` 作为示例，注意，若代码块用 `tsx` 编写，则会自动生成 `jsx`，可以相互转化。
+> [Demo的类型及渲染](https://d.umijs.org/guide/demo-types) | 封装 `antd` 中的 `Button` 作为示例，注意，若代码块用 `tsx` 编写，则会自动生成 `jsx`，可以相互转化。
 
 ## 方法一
 
