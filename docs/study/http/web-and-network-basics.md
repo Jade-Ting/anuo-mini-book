@@ -1,10 +1,11 @@
 ---
-title: 学习http
+title: 网络基础-各个协议的关系
+order: 1
 path: /study
 ---
 
 <Alert>
-http主要学习 <a href="https://weread.qq.com/web/reader/3da32b505dd9f43da9a1acakc81322c012c81e728d9d180">图解HTTP协议 - 上野宣著</a>
+主要摘抄 <a href="https://weread.qq.com/web/reader/3da32b505dd9f43da9a1acakc81322c012c81e728d9d180">图解HTTP协议 - 上野宣著</a>
 </Alert>
 
 ## 使用HTTP协议访问web
