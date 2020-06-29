@@ -36,4 +36,4 @@ export default () => <AButtonDemo />;
 ```
 
 ## 方法三
-<code src="../../src/demo/AButtonDemo.tsx" title="按键" desc="以`code`的形式嵌入" hideActions='["CSB"]'>
+<code src="../../src/demo/AButtonDemo.tsx" title="按键" desc="以`code`的形式嵌入" hideactions='["CSB"]'>
