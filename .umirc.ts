@@ -6,7 +6,7 @@ export default defineConfig({
   favicon: 'https://jade-ting.github.io/pictures/favicon.png',
   logo: 'https://jade-ting.github.io/pictures/favicon.png',
   outputPath: 'docs-dist',
-  mode: 'site',
+  mode: 'site', // site | doc
 
   base: '/anuo-mini-book',
   publicPath: '/anuo-mini-book/',
