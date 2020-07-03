@@ -68,11 +68,23 @@ export default defineConfig({
           'study/http/http-header.md',
         ],
       },
+    ],
+    '/share': [
+      {
+        title: 'github-pages',
+        path: '/share',
+        children: [
+          'share/github-pages/github-pages-first.md', // 菜单子项（可选）- 对应的 Markdown 文件，路径是相对于 resolve.includes 目录识别的
+          'share/github-pages/github-pages-two.md',
+          'share/github-pages/github-pages-three.md',
+          'share/github-pages/workflow.md',
+        ],
+      },
       {
         title: '图片处理',
         path: '/images',
         children: [
-          'study/images/canvas-joint.md'
+          'share/images/canvas-joint.md'
         ],
       },
     ]
