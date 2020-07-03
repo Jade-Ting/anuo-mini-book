@@ -1,7 +1,6 @@
 ---
 title: 网络基础-各个协议的关系
 order: 1
-path: /study
 ---
 
 <Alert>

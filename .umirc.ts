@@ -22,5 +22,59 @@ export default defineConfig({
         style: 'css',
       },
     ],
- ],
+  ],
+
+  // 导航配置
+  navs: [
+    // null, // null 值代表保留约定式生成的导航，只做增量配置
+    {
+      title: '学习dumi',
+      path: '/demo',
+    },
+    {
+      title: '学习笔记',
+      path: '/study',
+    },
+    {
+      title: '分享',
+      path: '/share',
+    },
+
+
+    {
+      title: 'GitHub',
+      path: 'https://github.com/Jade-Ting',
+    },
+  ],
+
+  //  配置路由 - 需要自定义侧边菜单的路径，没有配置的路径还是会使用自动生成的配置
+  menus: {
+    '/demo': [
+      {
+        title: 'dumi学习',
+        path: '/demo',
+        children: [
+          'demo/demo.md', // 菜单子项（可选）- 对应的 Markdown 文件，路径是相对于 resolve.includes 目录识别的
+        ],
+      },
+    ],
+    '/study': [
+      {
+        title: 'HTTP',
+        path: '/study',
+        children: [
+          'study/http/web-and-network-basics.md', // 菜单子项（可选）- 对应的 Markdown 文件，路径是相对于 resolve.includes 目录识别的
+          'study/http/simple-http-protocol.md',
+          'study/http/http-header.md',
+        ],
+      },
+      {
+        title: '图片处理',
+        path: '/images',
+        children: [
+          'study/images/canvas-joint.md'
+        ],
+      },
+    ]
+  },
 });
