@@ -72,7 +72,7 @@ export default defineConfig({
     '/share': [
       {
         title: 'github-pages',
-        path: '/share',
+        path: '/share/github-pages',
         children: [
           'share/github-pages/github-pages-first.md', // 菜单子项（可选）- 对应的 Markdown 文件，路径是相对于 resolve.includes 目录识别的
           'share/github-pages/github-pages-two.md',
@@ -82,7 +82,7 @@ export default defineConfig({
       },
       {
         title: '图片处理',
-        path: '/images',
+        path: '/share/images',
         children: [
           'share/images/canvas-joint.md'
         ],
