@@ -87,6 +87,13 @@ export default defineConfig({
           'share/images/canvas-joint.md'
         ],
       },
+      {
+        title: '使用git',
+        path: '/share/git',
+        children: [
+          'share/git/create-repository.md'
+        ],
+      },
     ]
   },
 });
