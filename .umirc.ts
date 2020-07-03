@@ -91,7 +91,8 @@ export default defineConfig({
         title: '使用git',
         path: '/share/git',
         children: [
-          'share/git/create-repository.md'
+          'share/git/create-repository.md',
+          'share/git/manage-account-info.md',
         ],
       },
     ]
