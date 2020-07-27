@@ -93,6 +93,8 @@ export default defineConfig({
         children: [
           'share/git/create-repository.md',
           'share/git/manage-account-info.md',
+          'share/git/stash.md',
+          'share/git/vim-change-commit.md',
         ],
       },
     ]
