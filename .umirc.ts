@@ -40,7 +40,6 @@ export default defineConfig({
       path: '/share',
     },
 
-
     {
       title: 'GitHub',
       path: 'https://github.com/Jade-Ting',
@@ -68,6 +67,14 @@ export default defineConfig({
           'study/http/http-header.md',
         ],
       },
+      {
+        title: 'js',
+        path: '/study/js',
+        children: [
+          'study/js/file-reader/file-reader.md',
+          'study/js/file-reader/upload-file.md',
+        ],
+      },
     ],
     '/share': [
       {
@@ -83,9 +90,7 @@ export default defineConfig({
       {
         title: '图片处理',
         path: '/share/images',
-        children: [
-          'share/images/canvas-joint.md'
-        ],
+        children: ['share/images/canvas-joint.md'],
       },
       {
         title: '使用git',
@@ -97,6 +102,6 @@ export default defineConfig({
           'share/git/vim-change-commit.md',
         ],
       },
-    ]
+    ],
   },
 });
