@@ -73,6 +73,7 @@ export default defineConfig({
         children: [
           'study/js/file-reader/file-reader.md',
           'study/js/file-reader/upload-file.md',
+          'study/js/even-loop.md',
         ],
       },
     ],
