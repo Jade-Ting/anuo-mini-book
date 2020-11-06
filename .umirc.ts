@@ -47,29 +47,38 @@ export default defineConfig({
   ],
 
   //  配置路由 - 需要自定义侧边菜单的路径，没有配置的路径还是会使用自动生成的配置
+  /**
+   * '/demo': [      ====> 路由
+      {
+        title: 'dumi学习', ===> 该路由侧边栏的名称
+        // path: '/demo',   ===> 添加path的话，表示 ‘dumi学习’ 也是一个页面， 对应的是 docs/demo/index.md
+        children: [           ===>‘dumi学习’下的子目录
+          'demo/demo.md',       ===> 子目录对应的页面，子目录会自动获取文件路径作为路由
+        ],
+      },
+    ],
+   */
   menus: {
     '/demo': [
       {
         title: 'dumi学习',
-        path: '/demo',
-        children: [
-          'demo/demo.md', // 菜单子项（可选）- 对应的 Markdown 文件，路径是相对于 resolve.includes 目录识别的
-        ],
+        // path: '/demo',
+        children: ['demo/demo.md'],
       },
     ],
     '/study': [
       {
         title: 'HTTP',
-        path: '/study',
+        // path: '/study',
         children: [
-          'study/http/web-and-network-basics.md', // 菜单子项（可选）- 对应的 Markdown 文件，路径是相对于 resolve.includes 目录识别的
+          'study/http/web-and-network-basics.md',
           'study/http/simple-http-protocol.md',
           'study/http/http-header.md',
         ],
       },
       {
         title: 'js',
-        path: '/study/js',
+        // path: '/study/js',
         children: [
           'study/js/file-reader/file-reader.md',
           'study/js/file-reader/upload-file.md',
@@ -79,10 +88,14 @@ export default defineConfig({
     ],
     '/share': [
       {
+        title: '汇总',
+        path: '/share/summary',
+      },
+      {
         title: 'github-pages',
-        path: '/share/github-pages',
+        // path: '/share/github-pages',
         children: [
-          'share/github-pages/github-pages-first.md', // 菜单子项（可选）- 对应的 Markdown 文件，路径是相对于 resolve.includes 目录识别的
+          'share/github-pages/github-pages-first.md',
           'share/github-pages/github-pages-two.md',
           'share/github-pages/github-pages-three.md',
           'share/github-pages/workflow.md',
@@ -90,12 +103,12 @@ export default defineConfig({
       },
       {
         title: '图片处理',
-        path: '/share/images',
+        // path: '/share/images',
         children: ['share/images/canvas-joint.md'],
       },
       {
         title: '使用git',
-        path: '/share/git',
+        // path: '/share/git',
         children: [
           'share/git/create-repository.md',
           'share/git/manage-account-info.md',
