@@ -28,6 +28,9 @@
     ]
   },
   "dependencies": {
+    "@ant-design/icons": "^4.2.2",
+    "antd": "^4.8.0",
+    "bizcharts": "^4.0.14",
     "react": "^16.13.1"
   },
   "devDependencies": {
@@ -39,5 +42,9 @@
     "lint-staged": "^10.0.7",
     "prettier": "^1.19.1",
     "yorkie": "^2.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jade-Ting/anuo-mini-book"
   }
 }
