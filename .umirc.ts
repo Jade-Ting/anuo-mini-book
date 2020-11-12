@@ -114,6 +114,7 @@ export default defineConfig({
           'share/git/manage-account-info.md',
           'share/git/stash.md',
           'share/git/vim-change-commit.md',
+          'share/git/create-file-tree.md',
         ],
       },
     ],
