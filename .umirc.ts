@@ -117,6 +117,10 @@ export default defineConfig({
           'share/git/create-file-tree.md',
         ],
       },
+      {
+        title: '插件',
+        children: ['share/plugins/pagewalkthrough.md'],
+      },
     ],
   },
 });
